@@ -1,0 +1,36 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-standard",
+        "tslint-react",
+        "tslint-config-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+        "grouped-imports": true,
+        "import-sources-order": true,
+        "object-literal-sort-keys": {
+            "options": "match-declaration-order"
+        },
+        "jsx-no-labmda": true,
+        "jsx-boolean-value": true,
+        "react/boolean-prop-naming": [
+            "error",
+            {
+                "validateNested": true,
+                "rule": "^(is|has)[A-Z]([A-Za-z0-9]?)+",
+                "propTypeNames": [
+                    "bool",
+                    "mutuallyExclusiveTrueProps"
+                ]
+            }
+        ],
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double"
+        ]
+    },
+    "rulesDirectory": []
+}

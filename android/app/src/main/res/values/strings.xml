@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lingo</string>
+    <string name="discover_your_body_s_language">Discover your body\'s language</string>
+    <string name="logo">logo</string>
+    <color name="splash_bg_color">#144E66</color>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+</resources>
